@@ -5,10 +5,12 @@ A new shop idea for Oahu Island, Surf n’ Shake, needs investor backing. My cli
 ## Results
 ### Major Points
 * To analyze temperature patterns for June, I wrote a query that filtered the date column from the Measurement table to retrieve all the temperatures for the month. To get June as the specific month, I utilized the extract method and conditionals. I then used list comprehension to convert the June temperatures to a list. I created a dataframe, named June_df, using the pd.DataFrame() function. I named the columns "June Temperatures". I then generated the summary statistics for the June temperatures DataFrame using the describe() method. 
-INSERT PICS
+![june 1](https://user-images.githubusercontent.com/106560739/183791393-c3477653-48ba-417d-98ad-43a426687f02.png)
+![jun sum](https://user-images.githubusercontent.com/106560739/183791400-7d87a940-0e42-4583-8326-9addf2637ba9.png)
 Upon calculating the summary statistics, I found that the highest temperature recorded out of the 1700 data points for the month of June was 85.00 degrees Fahrenheit. The lowest temperature recorded in June was 64.00 degrees Fahrenheit. 
 * To analyze temperature patterns for December, I wrote a query that filtered the date column from the Measurement table to retrieve all the temperatures for the month. To get December as the specific month, I utilized the extract method and conditionals. I then used list comprehension to convert the December temperatures to a list. I created a dataframe, named Dec_df, using the pd.DataFrame() function. I named the columns "December Temperatures". I then generated the summary statistics for the December temperatures DataFrame using the describe() method. 
-INSERT PICS
+![dec 1](https://user-images.githubusercontent.com/106560739/183791432-cc4368ab-ab51-4c7e-be17-188eaf1484b3.png)
+![dec sum](https://user-images.githubusercontent.com/106560739/183791437-7a0a9349-a0d2-49a3-8788-25f606633d97.png)
 Upon calculating the summary statistics, I found that the highest temperature recorded out of the 1517 data points for the month of December was 83.00 degrees Fahrenheit. The lowest temperature recorded in December was 56.00 degrees Fahrenheit. 
 * Upon comparing the summary statistics for both months, I found that the temperature for June is on average higher than December. The mean or average temperature in June is approximately 74.94 degrees Fahrenheit. This contrasts with December as the mean or average temperature during this month is approximately 71.04 degrees Fahrenheit.
 ## Summary
